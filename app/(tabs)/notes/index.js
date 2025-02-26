@@ -23,11 +23,18 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
   text: {
-    color: '#fff',
+    color: 'white',
+    fontSize: 20,
+    marginBottom: 10,
+    textAlign: 'center',
   },
   button: {
-    fontSize: 20,
-    textDecorationLine: 'underline',
-    color: '#fff',
+    backgroundColor: '#ffd33d',
+    paddingVertical: 12,
+    paddingHorizontal: 20,
+    borderRadius: 15,
+    alignItems: 'center',
+    justifyContent: 'center',
+    marginVertical: 5,
   },
 });
