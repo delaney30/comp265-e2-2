@@ -1,18 +1,15 @@
 import { Text, View, StyleSheet } from 'react-native';
 import { Link } from 'expo-router';
 
-export default function AboutScreen() {
+export default function NotesScreen() {
   return (
     <View style={styles.container}>
-      <Text style={styles.text}>About screen</Text>
-      <Link href="/about/settings?special=arlin" style={styles.button}>
-        Go to Settings screen - Arlin
+      <Text style={styles.text}>Notes screen</Text>
+      <Link href="/notes/home/" style={styles.button}>
+        Go to Home screen
       </Link>
-      <Link href="/about/settings?special=craig" style={styles.button}>
-        Go to Settings screen - Craig
-      </Link>
-      <Link href="/about/settings?special=mike" style={styles.button}>
-        Go to Settings screen - Mike
+      <Link href="/notes/details/" style={styles.button}>
+        Go to Details screen
       </Link>
     </View>
   );
